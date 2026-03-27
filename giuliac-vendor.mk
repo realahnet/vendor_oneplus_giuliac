@@ -115,12 +115,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/camera_third_party_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_third_party_feature_config.protobuf \
     vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
     vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
-    vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/imx355:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx355 \
     vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/imx480:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx480 \
-    vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/imx906:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx906 \
-    vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_traversal_config.json \
-    vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/oplus_camera_preview_decision_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_preview_decision_config.json \
     vendor/oneplus/giuliac/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
