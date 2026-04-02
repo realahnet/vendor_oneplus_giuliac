@@ -677,7 +677,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giuliac/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/giuliac/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/giuliac/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
-    vendor/oneplus/giuliac/proprietary/vendor/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/giuliac/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oneplus/giuliac/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/giuliac/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
@@ -1525,11 +1524,6 @@ PRODUCT_PACKAGES += \
     libdisplaycolorfeature \
     libdisplayfossfeature_nature \
     libdlrmsc \
-    libdolbyclstc \
-    libdolbydecoderprocessor \
-    libdolbyeglcore \
-    libdolbyencoderprocessor \
-    libdolbyottcameracontrol \
     libdpaservice \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
@@ -1561,8 +1555,6 @@ PRODUCT_PACKAGES += \
     libportrait_repair_qnn \
     libpwirisfeature \
     libpwirishalwrapper \
-    libqcodec2_dolbydecoderfilter \
-    libqcodec2_dolbyencoderfilter \
     libqsh.utils \
     libremosaic_wrapper \
     libremosaiclib_s5k3p9 \

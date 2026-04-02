@@ -8161,91 +8161,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdolbyclstc",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdolbyclstc.so"],
-			shared_libs: ["libsensorndkbridge", "liblog", "libm", "libdl", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libdolbydecoderprocessor",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdolbydecoderprocessor.so"],
-			shared_libs: ["liblog", "libEGL", "libGLESv2", "libui", "libutils", "libstagefright_foundation", "libcutils", "libdolbyottcameracontrol", "libhidlbase", "libnativewindow", "libdolbyeglcore", "libcodec2_vndk", "libcodec2", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libdolbyeglcore",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdolbyeglcore.so"],
-			shared_libs: ["libEGL", "libGLESv3", "libnativewindow", "libcutils", "liblog", "libutils", "libui", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libdolbyencoderprocessor",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdolbyencoderprocessor.so"],
-			shared_libs: ["libdolbyeglcore", "libnativewindow", "liblog", "libEGL", "libGLESv3", "libdolbyottcameracontrol", "libutils", "libcutils", "libui", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libdolbyottcameracontrol",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdolbyottcameracontrol.so"],
-			shared_libs: ["liblog", "libGLESv3", "libEGL", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libdpaservice",
 	owner: "oneplus",
 	strip: {
@@ -8765,40 +8680,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libpwirishalwrapper.so"],
 			shared_libs: ["vendor.pixelworks.hardware.display-V2-ndk", "liblog", "libutils", "libcutils", "android.hardware.graphics.common@1.2", "libhardware", "libsdmcore", "libqdMetaData", "libpwirisfeature", "libhidlbase", "libhidltransport", "vendor.pixelworks.hardware.display@1.0", "vendor.pixelworks.hardware.display@1.1", "vendor.pixelworks.hardware.display@1.2", "libbase", "libbinder_ndk", "android.hardware.graphics.mapper@4.0", "android.hardware.graphics.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "android.hardware.graphics.composer3-V3-ndk", "android.hardware.common-V2-ndk", "vendor.qti.hardware.display.config-V11-ndk", "libgrallocutils", "libgralloctypes", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libqcodec2_dolbydecoderfilter",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libqcodec2_dolbydecoderfilter.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libcodec2_vndk", "libqcodec2_base", "libqcodec2_utils", "libqcodec2_basecodec", "libqcodec2_filterbase", "libqcodec2_platform", "qti.video.utils.videobufferlayout", "libdolbydecoderprocessor", "libstagefright_foundation", "libnativewindow", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libqcodec2_dolbyencoderfilter",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libqcodec2_dolbyencoderfilter.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libcodec2_vndk", "libqcodec2_base", "libqcodec2_utils", "libqcodec2_basecodec", "libqcodec2_filterbase", "libqcodec2_platform", "qti.video.utils.videobufferlayout", "libnativewindow", "libEGL", "libGLESv3", "libdolbyencoderprocessor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
