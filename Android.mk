@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),giuliac)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,62f5766e0ca0cfc72c5eef57645a04c53f1060c3)
+$(call add-radio-file-sha1-checked,radio/abl.img,f15ca4be5a112852997a897fd744b61b90ba3278)
 $(call add-radio-file-sha1-checked,radio/aop.img,9d3fecc7c614558c0543f518ac058ed726f5d43c)
 $(call add-radio-file-sha1-checked,radio/aop_config.img,8c87cddf82189885c14ee437d0ac1b6ed053a270)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,d6e66bb29aa0d3b2fb78bee6267943d3af8153cb)
@@ -14,7 +14,7 @@ $(call add-radio-file-sha1-checked,radio/cpucp.img,0599cea7cc565b44c1e772dfd7857
 $(call add-radio-file-sha1-checked,radio/cpucp_dtb.img,59ab7288e6e2705d493bad1b90ec67a53f43ba98)
 $(call add-radio-file-sha1-checked,radio/devcfg.img,1e1f50078cee0840b937619a231435342707dd9c)
 $(call add-radio-file-sha1-checked,radio/dsp.img,72075bb397712d2b7753e2a8654cf8e5c2313602)
-$(call add-radio-file-sha1-checked,radio/engineering_cdt.img,a1299dae37271d8c11fcee95b069835cafea2efa)
+$(call add-radio-file-sha1-checked,radio/engineering_cdt.img,be0695deec1cb80da7f60f24b8457dca49a5d43f)
 $(call add-radio-file-sha1-checked,radio/featenabler.img,4209f061943a7db7faf87d2c85adc38886cd6e7b)
 $(call add-radio-file-sha1-checked,radio/hyp.img,aedac8089a50856bf865bd7568fb2ffc7d3e1f86)
 $(call add-radio-file-sha1-checked,radio/imagefv.img,36777373f718e3c3bb2a9c1db926978a02519fa3)
