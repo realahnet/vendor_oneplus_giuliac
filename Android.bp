@@ -5100,6 +5100,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.performance-V1-ndk_platform",
+	owner: "oneplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.pixelworks.hardware.display-V2-ndk",
 	owner: "oneplus",
 	strip: {
@@ -8271,7 +8288,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libextensionlayer.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libcommonchiutils", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "android.hardware.graphics.allocator-V1-ndk", "vendor.oplus.hardware.osense.client-V1-ndk", "libosenseaidlhalclient", "libbinder_ndk", "libosensenativeproxy_client", "com.qti.chi.override", "libchilog", "libbinder", "libqdMetaData", "libziparchive", "libbase", "libz", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libhwconfigurationutil", "libthirdcapability", "libcom.qti.chinodeutils", "vendor.oplus.hardware.cammidasservice-V1-ndk", "libmidasserviceintf_aidl", "vendor.oplus.hardware.camera.aon-service-impl", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libcommonchiutils", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "android.hardware.graphics.allocator-V1-ndk", "vendor.oplus.hardware.osense.client-V1-ndk", "libosenseaidlhalclient", "libbinder_ndk", "libosensenativeproxy_client", "com.qti.chi.override", "libchilog", "libbinder", "libqdMetaData", "libziparchive", "libbase", "libz", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libhwconfigurationutil", "libthirdcapability", "libcom.qti.chinodeutils", "vendor.oplus.hardware.cammidasservice-V1-ndk", "libmidasserviceintf_aidl", "vendor.oplus.hardware.camera.aon-service-impl", "vendor.oplus.hardware.performance-V1-ndk_platform", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
