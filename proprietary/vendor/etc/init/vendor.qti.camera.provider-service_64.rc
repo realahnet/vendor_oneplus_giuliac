@@ -3,7 +3,6 @@
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 
 service vendor.camera-provider /vendor/bin/hw/vendor.qti.camera.provider-service_64
-    setenv JE_MALLOC_ZERO_FILLING 1
     interface aidl android.hardware.camera.provider.ICameraProvider/vendor_qti/0
     interface aidl vendor.qti.hardware.camera.offlinecamera.IOfflineCameraService/default
     interface aidl vendor.qti.hardware.camera.aon.IAONService/default
