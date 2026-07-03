@@ -16474,7 +16474,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libmvgcommon.so",
             ],
             shared_libs: [
-                "libui",
+                "libui-stock",
                 "libutils",
                 "libOGLManager",
                 "libsharebuffer",
