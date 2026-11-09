@@ -18761,3 +18761,24 @@ install_symlink {
     installed_location: "etc/display/qdcm_calib_data_AA577_P_3_A0020_dsc_cmd_mode_panel.json",
     symlink_target: "/odm/etc/display/qdcm_calib_data_AA577_P_3_A0020_dsc_cmd_mode_panel.json",
 }
+
+install_symlink {
+    name: "vendor_etc_audio_sku_pineapple_mixer_paths_pineapple_mtp_xml",
+    soc_specific: true,
+    installed_location: "etc/audio/sku_pineapple/mixer_paths_pineapple_mtp.xml",
+    symlink_target: "/odm/etc/mixer_paths.xml",
+}
+
+install_symlink {
+    name: "vendor_etc_audio_sku_pineapple_resourcemanager_pineapple_mtp_xml",
+    soc_specific: true,
+    installed_location: "etc/audio/sku_pineapple/resourcemanager_pineapple_mtp.xml",
+    symlink_target: "/odm/etc/resourcemanager.xml",
+}
+
+install_symlink {
+    name: "vendor_etc_usecaseKvManager_xml",
+    soc_specific: true,
+    installed_location: "etc/usecaseKvManager.xml",
+    symlink_target: "/odm/etc/usecaseKvManager.xml",
+}

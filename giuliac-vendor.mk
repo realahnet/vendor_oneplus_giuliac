@@ -938,7 +938,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giuliac/proprietary/odm/vendor/firmware/uff_spi.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b08 \
     vendor/oneplus/giuliac/proprietary/odm/vendor/firmware/uff_spi.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.mdt \
     vendor/oneplus/giuliac/proprietary/system/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/dolby_vision.cfg \
+    vendor/oneplus/giuliac/proprietary/vendor/etc/audio/sku_pineapple/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/audio_policy_configuration.xml \
+    vendor/oneplus/giuliac/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
+    vendor/oneplus/giuliac/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
+    vendor/oneplus/giuliac/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/oneplus/giuliac/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
+    vendor/oneplus/giuliac/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/oneplus/giuliac/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
     vendor/oneplus/giuliac/proprietary/vendor/etc/display/DPU1020.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1020.xml \
     vendor/oneplus/giuliac/proprietary/vendor/etc/display/DPU10__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU10__.xml \
@@ -980,7 +985,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giuliac/proprietary/vendor/etc/ltm_config_enzo_boe_ili7838e_1264_2780_evt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_enzo_boe_ili7838e_1264_2780_evt_dsc_cmd_mode_panel.xml \
     vendor/oneplus/giuliac/proprietary/vendor/etc/ltm_config_enzo_boe_ili7838e_1264_2780_high_pre_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_enzo_boe_ili7838e_1264_2780_high_pre_dsc_cmd_mode_panel.xml \
     vendor/oneplus/giuliac/proprietary/vendor/etc/ltm_config_enzo_boe_ili7838e_1264_2780_pvt_bd_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_enzo_boe_ili7838e_1264_2780_pvt_bd_dsc_cmd_mode_panel.xml \
-    vendor/oneplus/giuliac/proprietary/vendor/etc/mem_logger_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mem_logger_config.xml \
     vendor/oneplus/giuliac/proprietary/vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm \
     vendor/oneplus/giuliac/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/oneplus/giuliac/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
@@ -1740,4 +1744,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     vendor_etc_acdbdata_pineapple_mtp_acdb_cal_acdb \
-    vendor_etc_display_qdcm_calib_data_AA577_P_3_A0020_dsc_cmd_mode_panel_json
+    vendor_etc_display_qdcm_calib_data_AA577_P_3_A0020_dsc_cmd_mode_panel_json \
+    vendor_etc_audio_sku_pineapple_mixer_paths_pineapple_mtp_xml \
+    vendor_etc_audio_sku_pineapple_resourcemanager_pineapple_mtp_xml \
+    vendor_etc_usecaseKvManager_xml
